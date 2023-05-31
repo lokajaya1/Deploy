@@ -13,7 +13,7 @@ nav {
     margin: 0 10px;
   }
   nav a:hover {
-    color: white;
+    color: #fff;
   }
   
   .container {
@@ -74,18 +74,6 @@ nav {
     padding: 20px;
 }
   
-  aside img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    float: right;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    object-position: center;
-  }
   article {
     flex-basis: 70%;
     padding: 10px;
@@ -175,7 +163,7 @@ nav {
   }
   
   .nav-links li a:hover {
-    color: blue
+    color: #00f
   }
   
   .burger {
@@ -300,7 +288,7 @@ nav {
     }
   }
 
-  @media only screen and (max-width: 37px) {
+  @media only screen and (max-width: 375px) {
     .card {
       width: 100%;
       margin-right: 0;
