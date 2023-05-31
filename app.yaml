@@ -8,5 +8,11 @@ handlers:
     upload: index.html
 
   - url: /styles
-    static_files: /style.css
-    upload: /style.css
+    static_dir: styles
+
+  - url: /img
+    static_dir: /img
+
+  - url: /(.*\.(html|css))
+    static_files: \1
+    upload: .*/
